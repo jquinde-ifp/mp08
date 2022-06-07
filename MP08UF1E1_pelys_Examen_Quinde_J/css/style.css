@@ -1,0 +1,56 @@
+body{
+    background-color: #222;
+    font-family: Helvetica, Sans-serif;
+    
+}
+
+.koya, .yTu, .earth, .helvetica, .sicko, .zeit, .art, .home, .rip, .comprar, .inside, .doctrina, .search, .act, .espiritu, .tituloPendienteUno, .tituloPendienteDos, .tituloVistasUno, .tituloVistasDos, .tituloSeguirUno, .tituloSeguirDos, .tituloSeriesVistasUno, .tituloSeriesVistasDos {
+    display: inline-block;
+    width: 175px;
+    
+}
+
+.año, .catalogo{
+    float: left;
+    display: inline;
+}
+
+
+
+h1,p{
+    color: #FFF;
+}
+
+img{
+    border-radius: 5px;
+}
+
+.koya:hover, .yTu:hover, .earth:hover, .helvetica:hover, .sicko:hover, .zeit:hover, .art:hover, .home:hover, .rip:hover, .comprar:hover, .inside:hover, .doctrina:hover, .search:hover, .act:hover, .espiritu:hover, .tituloPendienteUno:hover .tituloPendienteDos:hover, .tituloVistasUno:hover, .tituloVistasDos:hover, .tituloSeguirUno:hover, .tituloSeguirDos:hover, .tituloSeriesVistasUno:hover, .tituloSeriesVistasDos:hover{
+    background-image: url(../imatges/quasinegre.png);
+    -webkit-filter: grayscale(100%);
+}
+
+.logo{
+    float: left;
+}
+
+.docu, .peli, .serie{
+    display: inline-block;
+    color: #fff;
+    margin: 20px;
+    
+}
+
+
+
+.docu:hover, .peli:hover, .serie:hover{
+    text-decoration: underline;
+}
+
+.barraArriba{
+    height: 50%;
+    background-color: black;
+    opacity: 50%;
+    text-align: center;
+    position: static;
+}

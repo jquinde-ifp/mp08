@@ -1,0 +1,88 @@
+/*----
+body{
+    width: 1200px;
+    display: inline-block;
+    position: absolute;
+    
+}
+div{
+    clear: both;
+    margin: 0 auto;
+    display: flex;
+}
+
+.uno{
+    width: 100%;
+    height: 5em;
+    border-radius: 25px 25px 25px 25px;
+    background-color: antiquewhite;
+    
+}
+
+.dos{
+    float: left;
+    width: 200px;
+    height: 400px;
+    background-color: rosybrown;
+    position: absolute;
+}
+
+.tres{
+    float: left;
+    width: 720px;
+    height: px;
+    margin-left: 250px;
+    background-color: red;
+}
+
+.cuatro{
+    float: left;
+    width: 200px;
+    height: 400px;
+    margin: 0 600px;
+    background-color: royalblue;
+    position: absolute;
+}
+
+------*/
+
+body{
+
+}
+
+div{
+    background-color: tomato;
+    margin: 13.3px;
+    overflow: visible;
+    margin: 0;
+}
+
+
+
+.cap, .peu{
+    width: 1173.4px;
+    height: 200px;
+    clear: both;
+    text-align: center;
+}
+
+.esq, .dre{
+    width: 200px;
+    float: left;
+}
+
+.cos{
+    background-color: thistle;
+    width: 720px;
+    float: left;
+}
+
+.contenedor{
+    width: 1200px;
+    background-color: teal;
+    margin: 0 auto;
+}
+
+
+
+

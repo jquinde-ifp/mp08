@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Downloads/carpeta sin título"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Prueba HTML Jordi"
+	}
+}

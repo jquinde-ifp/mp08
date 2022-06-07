@@ -1,0 +1,102 @@
+body{
+    background-color: purple;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #666; 
+    line-height: 13px;
+}
+
+.header{
+    height: 40px;
+}
+.uno{
+    background-color: #6C3;
+    height: 550px;
+    background-image: url(../img/img-hero-full-list.png);
+    background-position: 400px 0;
+    background-repeat: no-repeat;
+    
+    
+}
+.dos{
+    height: 641px;
+    background-color: #FFF;
+    position: static;
+    background-image: url(../img/allinone.jpg);
+    background-position: 400px 0;
+    background-repeat: no-repeat;
+}
+.tres{
+    background-color: #333333;
+    height: 500px;
+    position: static;
+    background-image: url(../img/curator-short.png);
+    background-position: 400px 0;
+    background-repeat: no-repeat;
+}
+.cuatro{
+    background-color: #EEECEE;
+    height: 550px;
+    position: static;
+    background-image: url(../img/img-hero-full-list.png);
+    background-position: 400px 0;
+    background-repeat: no-repeat;
+}
+.cinco{
+    background-color: #6C3;
+    height: 550px;
+    position: static;
+    background-image: url(../img/mobile-share.png);
+    background-position: 400px 15px;
+    background-repeat: no-repeat;
+}
+.seis{
+    background-color: #EEECEE;
+    height: 643px;
+    position: static;
+    background-image: url(../img/añowhere.png);
+    background-position: 400px 0;
+    background-repeat: no-repeat;
+}
+p{
+    
+    margin: 0px;
+    font-size: 18px;
+    line-height: 22px;
+    width: 390px;
+    padding: 0 30px ;
+    word-spacing: 18px;
+      
+}
+h1, h2{
+    
+    color: #666;
+    margin: 0;
+    /*width: 390px;*/
+    padding: 30px;
+}
+
+.text_clar,.titulo_claro{
+    color: #CCC;
+}
+
+
+footer{
+    background-color: #333333;
+    height: 200px;  
+    /*position: static;  */
+ 
+}
+
+.footer, .footer_img{
+    margin-left: 400px;
+}
+.img_download{
+    margin: 10px 0 10px 0;
+}
+
+#im_download_google:hover{
+    
+}
+
+

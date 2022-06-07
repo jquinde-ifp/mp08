@@ -1,0 +1,56 @@
+
+
+div{
+    background-color: red;
+    height: 10em;
+    width: 10em;    
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    clear: both;
+}
+
+span{
+    color: red;
+    display: none;
+}
+
+.floatE{
+    float: left;
+    margin: 0 1em 1em 0;
+    background-image: url(../img/rojo.jpg);
+    background-size: 100% 100%;
+
+}
+
+.floatR{
+    float: right;
+    margin: 0 0 1em 1em;
+    background-image: url(../img/cypherjpeg.jpeg);
+
+}
+
+.capitular{
+    float: left;
+    margin: 0 0.5em 0.5em 0;
+    background-image: url(../img/L.gif);
+    background-size: 100% 100%;
+    width: 2.8em;
+    height: 2.8em;
+}
+
+.columna{
+    width: 40%;
+    margin: 0 5%; 
+    
+}
+
+.Esquerra{
+    float: left;
+}
+
+.Dreta{
+    float: right;
+}

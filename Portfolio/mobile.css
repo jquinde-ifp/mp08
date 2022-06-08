@@ -1,0 +1,255 @@
+@media screen and (min-width:951px){
+    body{
+        height: 100%;
+        background-size: cover;
+        font-family: 'Audiowide', cursive;
+        color: #fff;
+
+    }
+
+    h1{
+        text-align: center;
+        font-size: 100px;
+        clear: both;
+        margin-bottom: -200px;
+    }
+
+    
+    a:link, a:visited, a:active {
+      text-decoration:none;
+      color: white;
+  }
+
+    ul{
+        transform-origin: center;
+    }
+
+    #video_background {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        min-width: 100%;
+        width: 0 auto;
+        height: auto;
+        z-index: -1000;
+        overflow: hidden;
+        
+        }
+
+        nav{
+            text-align: center;  
+        }
+        
+        li{
+            position: relative;
+          top: 200px;
+          padding: 25px;
+          margin: 10px;
+        }
+        
+        .uf1{
+          width: 250px;
+          height: 500px;
+          text-align: center;
+        }
+        
+        
+        .uf2{
+          width: 250px;
+          height: 550px;
+          top: 220px;
+          
+        }
+        
+        .relleno{
+           width: 250px;
+          height: 600px;
+          top: 240px;
+          
+        }
+        
+        .uf3{
+            width: 250px;
+          height: 550px;
+          top: 220px;
+        }
+        
+        .uf4{
+            width: 250px;
+          height: 500px;
+        }
+
+        .escala{
+            position: relative;
+            display: inline-block;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: 50%;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            line-height: 63px;
+            font-size: 30px;
+            transition: .5s;
+        }
+
+        .uf1{
+            background-image: url(../img/cardUno.png);
+            
+        }
+        .uf2{
+            background-image: url(../img/reyna.png);
+            
+        }
+        .uf3{
+            background-image: url(../img/killjoy.png);
+            
+        }
+        .uf4{
+            background-image: url(../img/cardCuatro.png);
+            
+        }
+        .relleno{
+            background-image: url(../img/cypher.png);
+            
+        }
+
+        .escala:hover{
+           /* background: rgba(0, 0, 0, 0.722);*/
+            transform: scale(90%); 
+            background-repeat: no-repeat;
+            background-size: contain;
+            transform-origin:middle;
+             z-index: 6;
+        }
+        
+        .largo{
+            width: 120px;
+            height: 60px;
+            margin: 5px;
+          }
+          
+          .escala{
+            overflow: hidden;
+          }
+       
+        }
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+ @media (max-width: 700px){
+    body{
+        height: 100%;
+        background-size: cover;
+        font-family: 'Audiowide', cursive;
+        color: #fff;
+
+    }
+    a:link, a:visited, a:active {
+      text-decoration:none;
+      color: white;
+  }
+
+    h1{
+      position: relative;
+        text-align: center;
+        font-size: 30pt;
+        clear: both;
+        margin: 0 auto;
+        left: 0%;
+        margin-bottom: -200px;
+    }
+
+    ul{
+        transform-origin: center;
+    }
+
+    #video_background {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        min-width: 100%;
+        width: 0 auto;
+        height: 100%;
+        z-index: -1000;
+        overflow: hidden;
+        
+        }
+
+        nav{
+            text-align: center;  
+            display: block;
+        }
+        
+        li{
+            position: relative;
+          top: 200px;
+          padding: 25px;
+          margin: 10px;
+        }
+        
+        .uf1, .uf2, .uf3, .uf4{
+          width: 120px;
+          height: 120px;
+          left: 20%;
+          top: 200px;
+         
+        }
+      
+
+        .escala{
+            position: relative;
+            display: block;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: 50%;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            line-height: 63px;
+            font-size: 30px;
+            transition: .5s;
+        }
+
+        .uf1{
+            background-image: url(../img/cardUno.png);
+            
+        }
+        .uf2{
+            background-image: url(../img/reyna.png);
+            
+        }
+        .uf3{
+            background-image: url(../img/killjoy.png);
+            
+        }
+        .uf4{
+            background-image: url(../img/cardCuatro.png);
+            
+        }
+        .relleno{
+            background-image: url(../img/cypher.png);
+            visibility: hidden;
+            display: none;
+            
+        }
+
+        .escala:hover{
+           /* background: rgba(0, 0, 0, 0.722);*/
+            transform: scale(90%); 
+            background-repeat: no-repeat;
+            background-size: contain;
+            transform-origin:middle;
+             z-index: 6;
+        }
+        
+        .largo{
+            width: 120px;
+            height: 60px;
+            margin: 5px;
+          }
+          
+          .escala{
+            overflow: hidden;
+          }
+       
+        
+        }

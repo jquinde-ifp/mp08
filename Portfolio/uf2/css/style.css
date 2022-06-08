@@ -1,0 +1,56 @@
+@media screen and (min-width:951px){
+    body{
+        height: 100%;
+        background-size: cover;
+        font-family: 'Audiowide', cursive;
+        color: #fff;
+
+    }
+
+    h1{
+        text-align: center;
+        font-size: 100px;
+        clear: both;
+        margin-bottom: -200px;
+    }
+
+    ul{
+        transform-origin: center;
+    }
+
+    a:link, a:visited, a:active {
+        text-decoration:none;
+        color: white;
+    }
+
+    #video_background {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        min-width: 100%;
+        width: 0 auto;
+        height: auto;
+        z-index: -1000;
+        overflow: hidden;
+        
+        }
+
+      nav{
+            text-align: center;  
+        }
+        
+        li{
+            position: relative;
+          top: 200px;
+          padding: 25px;
+          margin: 10px;
+        }
+
+        .uf1, .uf2, .uf3, .uf4, .relleno{
+            background-color: red;
+            display: inline-block;
+            width: 150px;
+        }
+
+
+    }
